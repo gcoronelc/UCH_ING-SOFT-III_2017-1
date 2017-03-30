@@ -47,3 +47,29 @@
 - JDBC con MySQL: https://www.udemy.com/how-to-connect-java-jdbc-to-mysql/
 - Spring: https://www.udemy.com/spring-tutorial-for-beginners/
 - Spring Boot: https://www.udemy.com/spring-boot-getting-started/
+
+
+# PROGRAMANDO PENSANDO EN SERVICIOS
+
+- http://gcoronelc.blogspot.pe/2016/11/programando-pensando-en-servicios-parte.html
+- http://gcoronelc.blogspot.pe/2016/11/prog-pensando-en-servicios-parte-2.html
+
+
+# ARQUITECTURA DE SOFTWARE
+
+- Parte 1: https://youtu.be/2Bcbls0bBzs
+- Parte 2: https://youtu.be/97_3-D4NrI0
+- Parte 3: https://youtu.be/zZWVMmeDdQw
+- Presentación: https://es.slideshare.net/soreygarcia/arquitectura-de-software-para-dummies
+- Entrevista: http://blog.soreygarcia.me/2014/03/modelos-y-arquitectura-de-software.html
+- Blog: http://blog.soreygarcia.me/
+- Slideshare: https://www.slideshare.net/soreygarcia
+
+
+
+
+
+
+
+
+
