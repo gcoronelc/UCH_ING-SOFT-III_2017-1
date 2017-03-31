@@ -1,6 +1,5 @@
 package pe.egcc.prestamo.service;
 
-import com.sun.javafx.scene.control.skin.VirtualFlow;
 import java.util.ArrayList;
 import java.util.List;
 import pe.egcc.prestamo.model.PrestamoModel;
@@ -11,10 +10,13 @@ public class PrestamoService {
           double porcInteres, int meses){
     List<PrestamoModel> lista = new ArrayList<>();
     // Proceso
-    double capitalCuota = capital / meses;
+    double capitalCuota = redondear(capital / meses);
     for (int mes = 1; mes <= meses; mes++) {
-      double interesCuota = capital * porcInteres / 100;
-      double totalCuota = capitalCuota + interesCuota;
+      if(mes == meses){
+        capitalCuota = redondear(capital);
+      }
+      double interesCuota = redondear( capital * porcInteres / 100 );
+      double totalCuota = redondear( capitalCuota + interesCuota );
       PrestamoModel bean = new PrestamoModel(mes, 
               capitalCuota, interesCuota, totalCuota);
       lista.add(bean);
@@ -22,5 +24,13 @@ public class PrestamoService {
     }
     return lista;
   }
+  
+  private double redondear(double valor){
+    valor *= 100.0;
+    valor = Math.round(valor);
+    valor /= 100;
+    return valor;
+  }
+  
   
 }
