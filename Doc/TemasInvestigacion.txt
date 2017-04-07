@@ -1,5 +1,5 @@
 1.  ReactJS
-   
+    Chanamoth, Valverde, Soto
 	
 2.  Polymer
 
@@ -8,24 +8,28 @@
 
 
 4.  Moment.js
-
+    Ramirez, Lope, Sosa
 
 5.  BackBone.js
 
 
 6.  Video.js
-
-
+	Paniagua, Ponte, 
 	
 7.  Vue.js
 
 
 8.  Ember
-
-
+    Rosales, Oropeza, Alvaro
+	
 9.  Knockout
 
 
 10. kendo-ui
+
+
+11. AngularJS
+    Bravo, Funes, Puchuri
+	
 
 
