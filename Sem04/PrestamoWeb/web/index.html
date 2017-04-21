@@ -14,27 +14,48 @@
       <p>Meses: <input type="text" name="meses"/></p>
       <p><input type="button" id="btnProcesar" value="Procesar"/></p>
     </form>
-    
-    
+
+
     <div id="divRepo">
-      Aquí se mostrará el resultado.
+      <h1>CRONOGRAMA DE PAGO</h1>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>MES</th>
+            <th>CAPITAL</th>
+            <th>INTERES</th>
+            <th>TOTAL</th>
+          </tr>
+        </thead>
+        <tbody id="tablaCuerpo">
+        </tbody>
+      </table>
     </div>
-    
+
     <script>
-      
+
       $("#btnProcesar").click(fnProcesar);
-      
-      function fnProcesar(){
+
+      function fnProcesar() {
         // Data
         var data = $("#form1").serialize();
         // Proceso 
-        $.post("PrestamoController",data,function(pagHTML){
-          $("#divRepo").html(pagHTML);
+        $.post("PrestamoController", data, function (listaJson) {
+          $("#tablaCuerpo").empty();
+          $.each(listaJson, function( index, rowObject ) {
+            var rowTable = "<tr>";
+            rowTable = rowTable + "<td>" + rowObject.mes + "</td>";
+            rowTable = rowTable + "<td>" + rowObject.capital + "</td>";
+            rowTable = rowTable + "<td>" + rowObject.interes + "</td>";
+            rowTable = rowTable + "<td>" + rowObject.total + "</td>";
+            rowTable = rowTable + "</tr>";
+            $("#tablaCuerpo").append(rowTable); 
+          });
           $("#divRepo").show();
         });
       }
-      
-      $("input").keyup(function(){
+
+      $("input").keyup(function () {
         $("#divRepo").hide();
       });
     </script>

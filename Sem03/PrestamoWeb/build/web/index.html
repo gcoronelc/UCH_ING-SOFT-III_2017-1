@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PRESTAMO</title>
+    <meta charset="UTF-8">
+    <script src="jquery/jquery.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>PRESTAMO</h1>
+    <form id="form1">
+      <p>Capital: <input type="text" name="capital"/></p>
+      <p>Interes: <input type="text" name="interes"/></p>
+      <p>Meses: <input type="text" name="meses"/></p>
+      <p><input type="button" id="btnProcesar" value="Procesar"/></p>
+    </form>
+    
+    
+    <div id="divRepo">
+      Aquí se mostrará el resultado.
+    </div>
+    
+    <script>
+      
+      $("#btnProcesar").click(fnProcesar);
+      
+      function fnProcesar(){
+        // Data
+        var data = $("#form1").serialize();
+        // Proceso 
+        $.post("PrestamoController",data,function(pagHTML){
+          $("#divRepo").html(pagHTML);
+          $("#divRepo").show();
+        });
+      }
+      
+      $("input").keyup(function(){
+        $("#divRepo").hide();
+      });
+    </script>
+  </body>
+</html>
