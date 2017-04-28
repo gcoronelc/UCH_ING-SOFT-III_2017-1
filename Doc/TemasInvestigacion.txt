@@ -17,7 +17,7 @@
     Paniagua, Ponte, 
 	
 7.  Vue.js
-     Flores, Soriano
+    Flores, Soriano, Ayala
 
 8.  Java JAAS
     Rosales, Oropeza, Alvaro, Flores Mariño,
