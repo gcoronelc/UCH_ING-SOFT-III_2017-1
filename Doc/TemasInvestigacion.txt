@@ -14,13 +14,14 @@
 
 
 6.  Video.js
-	Paniagua, Ponte, 
+    Paniagua, Ponte, 
 	
 7.  Vue.js
-
+     Flores, Soriano
 
 8.  Java JAAS
-    Rosales, Oropeza, Alvaro
+    Rosales, Oropeza, Alvaro, Flores Mariño,
+	
 	
 9.  Knockout
 
