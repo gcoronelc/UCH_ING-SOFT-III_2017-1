@@ -30,3 +30,7 @@ hs_err_pid*
 /Sem06/VentaApp/build/
 /Sem06/VentaService/build/
 /Sem06/VentaService/nbproject/private/
+/Sem06/VentaWeb/build/
+/Sem06/VentaService/dist/
+/Sem06/VentaWeb/dist/
+/Sem06/VentaWeb/nbproject/private/
