@@ -1,0 +1,14 @@
+http://codepen.io/eucm2/pen/PZOKQE
+
+
+<span id="res"></span>
+
+
+$(document).ready(function(){
+  //var hoy_formato=moment().format('MMMM Do YYYY, h:mm:ss a');
+  //var dia_formato=moment("2016-01-01").format('dddd');
+  var nacimiento=moment("2010-01-03");
+  var hoy=moment();
+  var anios=hoy.diff(nacimiento,"years");
+  $("#res").text(anios);
+});

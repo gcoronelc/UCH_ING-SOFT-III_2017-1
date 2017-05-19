@@ -1,0 +1,14 @@
+Los elementos relacionados con los medios HTML: <audio> , <video> , <source> ;
+Vídeo Manipular con canvas
+Presentación de la extensión de API Audio
+nsIDOMHTMLMediaElement
+Formatos de los medios admitidos por los elementos de audio y vídeo
+Theora Cookbook
+Popcorn.js - Media Framework HTML5
+Kaltura Solución videoteca , una biblioteca de JavaScript (mwEmbed) que soporta un retorno sin problemas con HTML5, VLC Player, Java Cortado y OMTK Vorbis reproductor de Flash. (Es utilizado por Wikimedia)
+OMTK - flash , una biblioteca de Flash que implementa un decodificador Vorbis
+Projekktor jugador , un contenedor de JavaScript para audio vídeo-tags con fallback flash, de código abierto, GPL
+Applet Cortado , una solución de reproducción de audio / vídeo en Java que mantiene Xiph.org
+Video.JS , un reproductor de vídeo HTML5 de código abierto y un marco.
+MediaElement.js - marco audio / video HTML5 de código abierto con una cuña de Flash personalizada que imitan API multimedia HTML5 para exploradores más antiguos.
+FLV Player - HTML5 reserva soporte del reproductor de vídeo
