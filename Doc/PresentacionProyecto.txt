@@ -1,0 +1,18 @@
+Desarrollo del Proyecto
+- FrontEnd: Libre
+- BackEnd: Spring Framework
+
+
+Presentación del Proyecto
+- Video en Youtube sobre el proyecto: UCH ING SOFT III Nombre
+- Todo el proyecto se publica en GitHub: UCH_ING_SOFT_3_Nombre
+
+
+Evaluación
+- Presentación
+- Informe - Usar APA
+- Exposición
+- Respuestas
+- Aplicativo
+- Video Youtube
+
