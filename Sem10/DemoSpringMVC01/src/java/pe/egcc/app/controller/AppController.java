@@ -40,7 +40,23 @@ public class AppController {
   }
   
   
+  @RequestMapping(value = "/multiplicar.htm", method = RequestMethod.GET)
+  public String multiplicar(){
+    return "multiplicar";
+  }
   
-  
-  
+  @RequestMapping(value = "/multiplicar.htm", method = RequestMethod.POST)
+  public String multiplicar(
+      @RequestParam("num1") int n1,
+      @RequestParam("num2") int n2,
+          Model model
+  ){
+    // Proceso
+    int rpta = mateService.multiplicar(n1, n2);
+    // Reporte
+    model.addAttribute("n1", n1);
+    model.addAttribute("n2", n2);
+    model.addAttribute("rpta", rpta);
+    return "multiplicar";
+  }
 }

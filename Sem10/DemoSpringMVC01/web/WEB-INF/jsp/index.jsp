@@ -28,7 +28,7 @@
     <h1>DEMO SPRING MVC</h1>
     <div>
       <a href="sumar.htm">Sumar</a>
-      <a href="multiplica.htm">Multiplicar</a>
+      <a href="multiplicar.htm">Multiplicar</a>
     </div>
     
     
