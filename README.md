@@ -66,10 +66,38 @@
 - Slideshare: https://www.slideshare.net/soreygarcia
 
 
+# Auto-Evaluación
+
+- Enlace 1: http://cibertest.com/test-examen/11/java
+- Enlace 2: http://www.digitallearning.es/tests/java-poo.html
+- Enlace 3: http://www.testprogramacion.com/java
+- Enlace 4: https://blog.udemy.com/entrevista-de-trabajo-de-java-las-10-preguntas-mas-frecuentes-y-como-contestarlas/
+- Enlace 5: http://pregunta2.com/quiz/test-de-programacion-en-java-891
+- Enlace 6: http://ocw.uc3m.es/ingenieria-informatica/programacion/pruebas-de-evaluacion
+- Enlace 7: http://fresh2refresh.com/java-questions/
+- Enlace 8: http://scjptest.com/mock-test.xhtml?execution=e2s1
+- Enlace 9: https://www.tutorialspoint.com/questions_and_answers.htm
+- Enlace 10: http://www.careerride.com/test.aspx?type=JDBC
+- Enlace 11: https://preparandoscjp.wordpress.com/guia-rapida/
+- Enlace 12: https://preparandoscjp.wordpress.com/2011/04/19/recopilacion-de-examenes-de-prueba/
+- Enlace 13: http://www.w3ii.com/es/jdbc/jdbc_mock_test.html
+- Enlace 14: http://www.pskills.org/jdbc.jsp
+- Enlace 15: http://www.javatpoint.com/core-java-quiz
+- Enlace 16: http://www.javatpoint.com/examaccess
+- Enlace 17: http://www.buggybread.com/
+- Enlace 18: http://www.w3ii.com/spring/spring_mock_test.html
+- Enlace 19: http://javaetmoi.com/spring/
+- Enlace 20: http://www.concretepage.com/
+- Enlace 21: http://www.techbeamers.com/category/java-quiz/
+- Enlace 22: https://modernpathshala.com/
+- Enlace 23: http://www.whizlabs.com
 
 
 
 
+![INGENIERIA DE SOFTWARE III](https://raw.githubusercontent.com/gcoronelc/UCH_ING-SOFT-III_2017-1/master/Fotos/Foto01.jpg)
+![INGENIERIA DE SOFTWARE III](https://raw.githubusercontent.com/gcoronelc/UCH_ING-SOFT-III_2017-1/master/Fotos/Foto02.jpg)
+![INGENIERIA DE SOFTWARE III](https://raw.githubusercontent.com/gcoronelc/UCH_ING-SOFT-III_2017-1/master/Fotos/Foto03.jpg)
 
 
 
