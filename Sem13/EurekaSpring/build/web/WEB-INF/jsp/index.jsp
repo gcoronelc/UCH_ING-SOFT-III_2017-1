@@ -19,9 +19,13 @@
                     <input type="password" name="clave" />
                 </div>
                 <div>
-                    <input type="submit" value="btnIngresar" />
+                    <input type="submit" value="Ingresar" />
                 </div>
             </fieldset>
         </form>
+        
+        <div style="color:red;">
+          ${error}
+        </div>
     </body>
 </html>
