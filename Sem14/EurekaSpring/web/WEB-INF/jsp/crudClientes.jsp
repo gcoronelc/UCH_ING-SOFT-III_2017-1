@@ -45,13 +45,13 @@
 
           <div class="form-field">
 
-            <input style="margin:10px 5px 0 5px; padding: 5px;"
+            <input class="btnDefault"
                    type="button" 
                    id="btnBuscar"
                    name="btnBuscar" 
                    value="Buscar" />
 
-            <input style="margin-top:10px 5px 0 5px; padding: 5px;"
+            <input class="btnDefault"
                    type="button" 
                    id="btnNuevo"
                    name="btnBuscar" 
@@ -59,12 +59,17 @@
 
           </div>
 
-
-
-
         </div>
       </form>
     </fieldset>
+
+    <c:if test="${not empty mensaje}">
+      <div class="cssMsgInfo">${mensaje}</div>
+    </c:if>      
+
+    <c:if test="${not empty error}">
+      <div class="cssMsgError">${error}</div>
+    </c:if>
 
     <div id="divResultado">
     </div>
@@ -75,19 +80,19 @@
       $("#materno").keyup(fnBuscar);
       $("#nombre").keyup(fnBuscar);
       $("#btnBuscar").click(fnBuscar);
-      
-      function fnBuscar(){
-        
+
+      function fnBuscar() {
+
         var data = $("#form1").serialize();
-        
-        $("#divResultado").load( "crudClientesConsultar.htm", data )
+
+        $("#divResultado").load("crudClientesConsultar.htm", data)
 
       }
-      
-      $("#btnNuevo").click(function(){
+
+      $("#btnNuevo").click(function () {
         window.location = "crudClientesNuevo.htm";
       });
-      
+
 
     </script>
 

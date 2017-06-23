@@ -21,8 +21,8 @@
 
       <tr>
         <td>
-          <a href="#">E</a>
-          <a href="#">D</a>
+          <a href="crudClientesEditar.htm?codigo=${r.codigo}">E</a>
+          <a href="crudClientesEliminar.htm?codigo=${r.codigo}">D</a>
         </td>
         <td>${r.codigo}</td>
         <td>${r.paterno}</td>
