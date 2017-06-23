@@ -1,0 +1,45 @@
+.cssLinkMenu{
+  background-color: darkslategrey;
+  color: antiquewhite;
+  height: 20px;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cssLinkMenuActivo{
+  background-color: blueviolet;
+  color: antiquewhite;
+  height: 20px;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cssMenuBar{
+  background-color: beige;
+}
+
+.btnMain{
+  background-color: tomato;
+  color: white;
+  padding: 15px;
+}
+
+.cssMsgError{
+  background-color: sienna;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-field{
+  width: 160px;
+  padding: 5px;
+  display: inline-block;
+  float: left;
+}
